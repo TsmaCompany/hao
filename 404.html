@@ -6,7 +6,7 @@
       // Preserve the path and redirect
       (function() {
         var pathname = window.location.pathname;
-        window.location.replace("/#" + pathname);
+        window.location.replace("/" + pathname.substring(1));
       })();
     </script>
   </head>
